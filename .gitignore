@@ -1,0 +1,35 @@
+# =========================
+# Python & Environnements
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Données & Résultats (Générés localement)
+# =========================
+# Ne pas push les plots ou données générées par les simulations
+*.csv
+*.dat
+*.png
+*.pdf
+*.svg
+data/
+out/
+logs/
+
+# =========================
+# IDEs & OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
